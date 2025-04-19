@@ -1,0 +1,54 @@
+.reaction {
+    margin: 20px 0;
+    padding: 7px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    color: black;
+}
+.reaction h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+.reaction h2 {
+    margin: 5px 0 0;
+    font-size: 15px;
+    color: #333;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.search-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.search-bar button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}

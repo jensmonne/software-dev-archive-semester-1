@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Workshop 4</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="schaakbord"></div>
+    <script>
+        const schaakbord = document.getElementById('schaakbord');
+        for (let i = 0; i < 64; i++) {
+            const tile = document.createElement('div');
+            tile.className = (Math.floor(i / 8) + (i % 8)) % 2 === 0 ? 'black' : 'wit';
+            schaakbord.appendChild(tile);
+        }
+    </script>
+</body>
+</html>

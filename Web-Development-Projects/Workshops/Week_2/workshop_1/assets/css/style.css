@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+h1, h2 {
+    text-align: center;
+}
+.photo-album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+.photo-thumbnail {
+    width: 15%;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo-thumbnail:hover {
+    transform: scale(1.05);
+}
+.photo-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
